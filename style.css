@@ -1,0 +1,412 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    
+    header {
+        background-color: blue;
+        width: 100%;
+        margin: 0;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background: white;
+    }
+    
+    nav ul {
+        display: flex;
+        gap: 30px;
+    }
+    
+    nav ul li {
+        list-style: none;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+        text-transform: capitalize;
+    }
+    
+    .Icon {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .logo {
+        width: 100px;
+    }
+    
+    nav button {
+        padding: 10px 20px;
+        border: none;
+        background: transparent;
+        font-size: 18px;
+    }
+    
+    nav .signin {
+        background: blue;
+        color: white;
+    }
+    
+    .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .header-right img {
+        width: 400px;
+    }
+    
+    .header-left p {
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .header-left button {
+        padding: 10px 30px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        text-transform: capitalize;
+        color: white;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+    
+    .header-left .header-left .btn {
+        display: flex;
+    }
+    
+    .header-left .btn>:nth-child(2) {
+        border: 1px solid white;
+        border-radius: 7px;
+    }
+    
+    .header-left form {
+        width: 250px;
+        margin-top: 30px;
+    }
+    
+    .header-left form input {
+        padding: 20px 30px;
+        width: 100%;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+    }
+    
+    .brands {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 40px;
+        background: rgb(81, 81, 202);
+    }
+    
+    .brands img {
+        width: 100px;
+    }
+    
+    .courses-content {
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .courses-content img {
+        width: 300px;
+    }
+    
+    .courses-content div {
+        width: 300px;
+    }
+    
+    .courses p,
+    .courses h1 {
+        text-align: center;
+    }
+    /* about */
+    
+    .about {
+        background: blue;
+        color: white;
+        padding: 50px;
+    }
+    
+    .about h1,
+    .about p {
+        text-align: center;
+    }
+    
+    .about-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .about-content .content-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        margin-top: 20px;
+    }
+    
+    .about-content .content-1 img {
+        width: 50px;
+    }
+    
+    .category {
+        color: white;
+    }
+    
+    .category h3,
+    .category h1 {
+        text-align: center;
+        color: black;
+    }
+    
+    .category p {
+        text-align: center;
+        color: black;
+    }
+    
+    .category-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .category-content .content-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+        padding: 10px;
+        border-radius: 8px;
+        margin-top: 40px;
+    }
+    
+    .green {
+        background: green;
+        padding: 10px;
+    }
+    
+    .purple {
+        background: purple;
+        padding: 10px;
+    }
+    
+    .yellow {
+        background: yellow;
+        padding: 10px;
+    }
+    
+    .red {
+        background: red;
+        padding: 10px;
+    }
+    
+    .category-content .content-1 img {
+        width: 30px;
+        border-radius: 7px;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+        align-items: center;
+    }
+    
+    .footer img {
+        width: 500px;
+    }
+    
+    .footer h1 {
+        font-size: 38px;
+    }
+    
+    .footer h1 span {
+        color: green;
+    }
+    
+    .footer h1,
+    .footer p {
+        text-transform: capitalize;
+    }
+    
+    .footer button {
+        background: blue;
+        padding: 10px 30px;
+        outline: none;
+        border: none;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    .image {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .image img {
+        width: 80%;
+        border-radius: 30px;
+    }
+    
+    .testominonial h1 {
+        color: green;
+        font-size: 38px;
+    }
+    
+    .testominonial h1,
+    .testominonial p {
+        text-align: center;
+        text-transform: capitalize;
+    }
+    
+    .testimmonial-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .testimmonial-about {
+        padding: 30px;
+        box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+    }
+    
+    .testimmonial-section img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    
+    .testimmonial-section div>:nth-child(1) {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .testimmonial-section div>:nth-child(1) p {
+        font-weight: bold;
+        font-size: 28px;
+    }
+    
+    .testimmonial-section div>:nth-child(2) {
+        text-align: left;
+    }
+    /* footer */
+    
+    footer {
+        display: flex;
+        background: blue;
+        padding: 40px;
+        color: white;
+        justify-content: space-around;
+    }
+    
+    footer .footer-content {
+        flex-basis: 44%;
+        padding: 30px;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: white;
+        margin: 0 10px;
+    }
+    /* resposive web design */
+    
+    @media(max-width:990px) {
+        ul {
+            flex-direction: column;
+            position: absolute;
+            right: 0;
+            background: white;
+            padding-top: 20px;
+        }
+        .Icon {
+            position: absolute;
+            right: 0;
+            top: 300px;
+            background: white;
+            width: 160px;
+        }
+        .buttons {
+            position: absolute;
+            right: 0;
+        }
+        .header-content {
+            flex-direction: column;
+        }
+    }
+    
+    @media(max-width:900px) {
+        .courses-content {
+            flex-direction: column;
+        }
+        .brands {
+            flex-direction: column;
+            margin: 10px;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin: 0;
+        }
+        .brands img {
+            width: 300px;
+            margin: 20px 0;
+        }
+        .category-content {
+            flex-direction: column;
+        }
+        .category-content .content-1 {
+            width: 100%;
+            align-items: center;
+        }
+        .footer {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            flex-wrap: wrap;
+        }
+        .testimmonial-section {
+            flex-direction: column;
+        }
+        footer {
+            flex-direction: column;
+        }
+        .about-content {
+            flex-direction: column;
+            width: 100%;
+        }
+    }
